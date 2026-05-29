@@ -19,3 +19,14 @@ def bigcodeblock(n):
 ```
 regular text?
 
+working on an improvement to `bigcodeblock` in this branch
+
+```python
+def bigcodeblock_v2(n):
+    """
+    This makes your machine catch fire, but faster
+    """
+    m=n**3
+    print(m)
+    return bigcodeblock(m)
+```
